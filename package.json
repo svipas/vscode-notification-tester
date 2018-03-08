@@ -5,6 +5,10 @@
   "icon": "https://raw.githubusercontent.com/svipben/vscode-notification-tester/master/images/notification.png",
   "version": "1.0.0",
   "publisher": "svipben",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svipben/vscode-notification-tester"
+  },
   "engines": {
     "vscode": "^1.21.0"
   },
