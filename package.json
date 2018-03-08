@@ -1,0 +1,40 @@
+{
+  "name": "notification-tester",
+  "displayName": "Notification Tester",
+  "description": "Trigger any VS Code notification.",
+  "icon": "./images/notification.png",
+  "version": "1.0.0",
+  "publisher": "svipben",
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onCommand:show.information.message",
+    "onCommand:show.warning.message",
+    "onCommand:show.error.message",
+    "onCommand:show.all.messages"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "show.information.message",
+        "title": "Notification Tester: Show Information Message"
+      },
+      {
+        "command": "show.warning.message",
+        "title": "Notification Tester: Show Warning Message"
+      },
+      {
+        "command": "show.error.message",
+        "title": "Notification Tester: Show Error Message"
+      },
+      {
+        "command": "show.all.messages",
+        "title": "Notification Tester: Show All Messages"
+      }
+    ]
+  },
+  "keywords": ["test", "notification", "center"]
+}
