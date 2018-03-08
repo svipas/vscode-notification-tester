@@ -7,4 +7,4 @@ This extension triggers VS Code notifications. This is usable if you want to tes
 1.  Open Command Palette.
 2.  Write `Notification Tester:` and use any command from the list to test Notification Center.
 
-![](./images/notification-center.png)
+![](https://raw.githubusercontent.com/svipben/vscode-notification-tester/master/images/notification-center.png)
