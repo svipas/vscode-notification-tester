@@ -1,6 +1,6 @@
 ## [1.1.0](#) (2018-03-09)
 
-* Added dummy Yes and No buttons for all messages.
+* Added dummy Yes and No buttons for all messages. ([#1](https://github.com/svipben/vscode-notification-tester/issues/1))
 * Updated Notification Center image.
 * Created `yarn.lock` file and added `vscode` dependency in `package.json` to enable autocomplete while developing extension.
 
