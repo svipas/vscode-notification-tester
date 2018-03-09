@@ -1,9 +1,9 @@
 const vscode = require('vscode');
 
 const messages = {
-  information: () => vscode.window.showInformationMessage('Information message!'),
-  warning: () => vscode.window.showWarningMessage('Warning message!'),
-  error: () => vscode.window.showErrorMessage('Error message!')
+  information: () => vscode.window.showInformationMessage('Information message!', { title: 'Yes' }, { title: 'No' }),
+  warning: () => vscode.window.showWarningMessage('Warning message!', { title: 'Yes' }, { title: 'No' }),
+  error: () => vscode.window.showErrorMessage('Error message!', { title: 'Yes' }, { title: 'No' })
 };
 
 function activate(context) {
