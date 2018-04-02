@@ -1,9 +1,20 @@
-## [1.1.0](#) (2018-03-09)
+## [1.2.0](https://github.com/svipben/vscode-notification-tester/releases/tag/1.2.0) (2018-04-02)
+
+### Added
+
+* `Show Progress Badge` and `Stop Progress Badge` commands to show/stop Progress Badge in Source Control. ([#2](https://github.com/svipben/vscode-notification-tester/issues/2))
+* Link to the extension in `README.md`.
+
+### Changed
+
+* Notification Center image.
+
+## [1.1.0](https://github.com/svipben/vscode-notification-tester/releases/tag/1.1.0) (2018-03-09)
 
 * Added dummy Yes and No buttons for all messages. ([#1](https://github.com/svipben/vscode-notification-tester/issues/1))
 * Updated Notification Center image.
 * Created `yarn.lock` file and added `vscode` dependency in `package.json` to enable autocomplete while developing extension.
 
-## [1.0.0](#) (2018-03-08)
+## [1.0.0](https://github.com/svipben/vscode-notification-tester/releases/tag/1.0.0) (2018-03-08)
 
 * Initial release.

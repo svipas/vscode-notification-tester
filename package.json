@@ -3,7 +3,7 @@
   "displayName": "Notification Tester",
   "description": "Trigger any VS Code notification.",
   "icon": "images/notification.png",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "svipben",
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
     "onCommand:show.information.message",
     "onCommand:show.warning.message",
     "onCommand:show.error.message",
-    "onCommand:show.all.messages"
+    "onCommand:show.all.messages",
+    "onCommand:show.progress.badge",
+    "onCommand:stop.progress.badge"
   ],
   "main": "./extension",
   "contributes": {
@@ -37,6 +39,14 @@
       {
         "command": "show.all.messages",
         "title": "Notification Tester: Show All Messages"
+      },
+      {
+        "command": "show.progress.badge",
+        "title": "Notification Tester: Show Progress Badge"
+      },
+      {
+        "command": "stop.progress.badge",
+        "title": "Notification Tester: Stop Progress Badge"
       }
     ]
   },
