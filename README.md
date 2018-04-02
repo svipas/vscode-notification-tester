@@ -1,4 +1,4 @@
-# Notification Tester
+# [Notification Tester](https://marketplace.visualstudio.com/items?itemName=svipben.notification-tester)
 
 This extension triggers VS Code notifications. This is usable if you want to test Notification Center. I created this extension to prepare new coloring for theme which helps me to see how Notification Center looks like in different messages (info/warn/error).
 
