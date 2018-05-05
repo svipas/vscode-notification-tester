@@ -1,3 +1,16 @@
+## [1.2.1](https://github.com/svipben/vscode-notification-tester/releases/tag/1.2.1) (2018-05-05)
+
+### Added
+
+* Icon in `README.md`
+* Visual Studio Marketplace badge in `README.md`
+
+### Changed
+
+* `images/notification.png` to `images/icon.png`
+* Size and location of Notification Center image.
+* ⬆️ `vscode` in `package.json` (devDependencies).
+
 ## [1.2.0](https://github.com/svipben/vscode-notification-tester/releases/tag/1.2.0) (2018-04-02)
 
 ### Added
