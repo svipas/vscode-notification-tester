@@ -1,8 +1,9 @@
 version: 2
 jobs:
   build:
-    machine:
-      image: circleci/classic:latest
+    docker:
+      - image: buildpack-deps:trusty
+      - image: circleci/node:latest
     working_directory: ~/vscode-notification-tester
     steps:
       - checkout
