@@ -55,11 +55,11 @@
     "center"
   ],
   "scripts": {
-    "vscode:prepublish": "yarn run compile",
+    "vscode:prepublish": "yarn compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "yarn run compile && node ./node_modules/vscode/bin/test"
+    "test": "yarn compile && node ./node_modules/vscode/bin/test"
   },
   "devDependencies": {
     "typescript": "^2.6.1",

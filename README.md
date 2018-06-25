@@ -4,6 +4,10 @@
     <img src="https://raw.githubusercontent.com/svipben/vscode-notification-tester/master/images/icon.png">
   </a>
   <br>
+  <!-- Build Status -->
+  <a href="https://travis-ci.com/svipben/vscode-notification-tester">
+    <img src="https://travis-ci.com/svipben/vscode-notification-tester.svg?branch=master">
+  </a>
   <!-- Visual Studio Marketplace -->
   <a href="https://marketplace.visualstudio.com/items?itemName=svipben.notification-tester">
     <img src="https://vsmarketplacebadge.apphb.com/version/svipben.notification-tester.svg">
