@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     machine:
-      enabled: true
+      image: circleci/classic:latest
     working_directory: ~/vscode-notification-tester
     steps:
       - checkout
