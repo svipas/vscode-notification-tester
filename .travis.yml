@@ -10,6 +10,9 @@ before_install:
       sh -e /etc/init.d/xvfb start;
       sleep 3;
     fi
+  - if [ $TRAVIS_OS_NAME == "osx" ]; then
+      brew install yarn;
+    fi
 
 install:
   - yarn install
