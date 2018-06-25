@@ -2,7 +2,7 @@
 
 ### Added
 
-- CircleCI with tests.
+- TravisCI with tests.
 
 ### Changed
 
