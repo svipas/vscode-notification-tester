@@ -1,6 +1,8 @@
 version: 2
 jobs:
   build:
+    machine:
+      enabled: true
     working_directory: ~/vscode-notification-tester
     steps:
       - checkout
