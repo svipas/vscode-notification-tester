@@ -1,3 +1,11 @@
+## [2.0.1](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.1) (2018-07-08)
+
+### Changed
+
+- File name of `enum` and `class` to uppercase.
+- ⬆️ dev dependencies.
+- Surrounded tests with `try/catch` since they are `async` and added `Promise.all` for one of the test to improve performance.
+
 ## [2.0.0](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.0) (2018-06-25)
 
 ### Added
