@@ -3,7 +3,7 @@
   "displayName": "Notification Tester",
   "description": "Trigger any VS Code notification.",
   "icon": "images/icon.png",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "publisher": "svipben",
   "repository": "https://github.com/svipben/vscode-notification-tester",
   "engines": {
