@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
-import MessageType from './message-type';
-import ProgressBadge from './progress-badge';
+import MessageType from './MessageType';
+import ProgressBadge from './ProgressBadge';
 
 const YES = Object.freeze({ title: 'Yes' });
 const NO = Object.freeze({ title: 'No' });
