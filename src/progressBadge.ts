@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 export class ProgressBadge {
-  private _resolveFn?: (value?: any) => void;
+  private _resolveFn: (value?: any) => void;
 
   start() {
     if (this._resolveFn) {
