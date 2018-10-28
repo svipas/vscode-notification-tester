@@ -1,48 +1,41 @@
 import * as vscode from 'vscode';
-import MessageType from './MessageType';
-import ProgressBadge from './ProgressBadge';
+import { MessageType } from './messageType';
+import { ProgressBadge } from './ProgressBadge';
 
-const YES = Object.freeze({ title: 'Yes' });
-const NO = Object.freeze({ title: 'No' });
+const title = {
+  yes: { title: 'yes' },
+  no: { title: 'no' }
+};
+
+export function activate(context: vscode.ExtensionContext) {
+  const progressBadge = new ProgressBadge();
+
+  const commands = [
+    vscode.commands.registerCommand('show.information.message', () => showMessage(MessageType.Info)),
+    vscode.commands.registerCommand('show.warning.message', () => showMessage(MessageType.Warn)),
+    vscode.commands.registerCommand('show.error.message', () => showMessage(MessageType.Error)),
+    vscode.commands.registerCommand('show.all.messages', () => {
+      Object.keys(MessageType).forEach((key: MessageType) => showMessage(key));
+    }),
+    vscode.commands.registerCommand('start.progress.badge', () => progressBadge.start()),
+    vscode.commands.registerCommand('stop.progress.badge', () => progressBadge.stop())
+  ];
+
+  context.subscriptions.push(...commands);
+}
 
 function showMessage(type: MessageType) {
   switch (type) {
-    case MessageType.INFO:
-      vscode.window.showInformationMessage('Information message!', YES, NO);
+    case MessageType.Info:
+      vscode.window.showInformationMessage('Information message!', title.yes, title.no);
       break;
-    case MessageType.WARN:
-      vscode.window.showWarningMessage('Warning message!', YES, NO);
+    case MessageType.Warn:
+      vscode.window.showWarningMessage('Warning message!', title.yes, title.no);
       break;
-    case MessageType.ERROR:
-      vscode.window.showErrorMessage('Error message!', YES, NO);
+    case MessageType.Error:
+      vscode.window.showErrorMessage('Error message!', title.yes, title.no);
       break;
     default:
-      throw new Error("There's no such message type");
+      throw Error("there's no such message type");
   }
-}
-
-export function activate(context: vscode.ExtensionContext) {
-  // Notification Messages
-  const messages: Array<vscode.Disposable> = [
-    vscode.commands.registerCommand('show.information.message', () => showMessage(MessageType.INFO)),
-    vscode.commands.registerCommand('show.warning.message', () => showMessage(MessageType.WARN)),
-    vscode.commands.registerCommand('show.error.message', () => showMessage(MessageType.ERROR)),
-    vscode.commands.registerCommand('show.all.messages', () => {
-      Object.values(MessageType).forEach(val => {
-        if (typeof val === 'number') {
-          showMessage(val);
-        }
-      });
-    })
-  ];
-
-  messages.forEach(msg => context.subscriptions.push(msg));
-
-  // Progress Badge
-  const progressBadge: Array<vscode.Disposable> = [
-    vscode.commands.registerCommand('start.progress.badge', () => ProgressBadge.start()),
-    vscode.commands.registerCommand('stop.progress.badge', () => ProgressBadge.stop())
-  ];
-
-  progressBadge.forEach(pb => context.subscriptions.push(pb));
 }
