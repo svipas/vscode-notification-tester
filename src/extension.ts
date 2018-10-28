@@ -3,8 +3,8 @@ import { MessageType } from './messageType';
 import { ProgressBadge } from './progressBadge';
 
 const title = {
-  yes: { title: 'yes' },
-  no: { title: 'no' }
+  yes: { title: 'Yes' },
+  no: { title: 'No' }
 };
 
 export function activate(context: vscode.ExtensionContext) {
