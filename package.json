@@ -56,8 +56,8 @@
   ],
   "scripts": {
     "vscode:prepublish": "yarn compile",
-    "compile": "tsc -p ./",
-    "watch": "tsc -watch -p ./",
+    "compile": "tsc",
+    "watch": "tsc -watch",
     "postinstall": "node ./node_modules/vscode/bin/install",
     "test": "yarn compile && node ./node_modules/vscode/bin/test"
   },
