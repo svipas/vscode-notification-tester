@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 import { MessageType } from './messageType';
-import { ProgressBadge } from './ProgressBadge';
+import { ProgressBadge } from './progressBadge';
 
 const title = {
   yes: { title: 'yes' },
