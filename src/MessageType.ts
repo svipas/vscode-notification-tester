@@ -1,7 +1,5 @@
-enum MessageType {
-  INFO,
-  WARN,
-  ERROR
+export enum MessageType {
+  Info = 'Info',
+  Warn = 'Warn',
+  Error = 'Error'
 }
-
-export default MessageType;
