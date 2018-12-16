@@ -14,9 +14,7 @@ export function activate(context: vscode.ExtensionContext) {
     vscode.commands.registerCommand('show.information.message', () => showMessage(MessageType.Info)),
     vscode.commands.registerCommand('show.warning.message', () => showMessage(MessageType.Warn)),
     vscode.commands.registerCommand('show.error.message', () => showMessage(MessageType.Error)),
-    vscode.commands.registerCommand('show.all.messages', () => {
-      Object.keys(MessageType).forEach((key: MessageType) => showMessage(key));
-    }),
+    vscode.commands.registerCommand('show.all.messages', () => Object.keys(MessageType).forEach(showMessage)),
     vscode.commands.registerCommand('start.progress.badge', () => progressBadge.start()),
     vscode.commands.registerCommand('stop.progress.badge', () => progressBadge.stop())
   ];

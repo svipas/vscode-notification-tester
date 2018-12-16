@@ -1,3 +1,7 @@
+## [2.0.3](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.3) (2018-12-16)
+
+- Updated all dependencies to the latest version.
+
 ## [2.0.2](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.2) (2018-10-28)
 
 - Updated all dependencies to the latest version.
