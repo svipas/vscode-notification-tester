@@ -2,19 +2,15 @@ import * as vscode from 'vscode';
 import { MessageType } from './messageType';
 import { ProgressBadge } from './progressBadge';
 
-const title = {
-  yes: { title: 'Yes' },
-  no: { title: 'No' }
-};
-
 export function activate(context: vscode.ExtensionContext) {
   const progressBadge = new ProgressBadge();
+  const messageTypeKeys = Object.keys(MessageType);
 
   const commands = [
     vscode.commands.registerCommand('show.information.message', () => showMessage(MessageType.Info)),
     vscode.commands.registerCommand('show.warning.message', () => showMessage(MessageType.Warn)),
     vscode.commands.registerCommand('show.error.message', () => showMessage(MessageType.Error)),
-    vscode.commands.registerCommand('show.all.messages', () => Object.keys(MessageType).forEach(showMessage)),
+    vscode.commands.registerCommand('show.all.messages', () => messageTypeKeys.forEach(showMessage)),
     vscode.commands.registerCommand('start.progress.badge', () => progressBadge.start()),
     vscode.commands.registerCommand('stop.progress.badge', () => progressBadge.stop())
   ];
@@ -37,3 +33,8 @@ function showMessage(type: MessageType) {
       throw Error("there's no such message type");
   }
 }
+
+const title = {
+  yes: { title: 'Yes' },
+  no: { title: 'No' }
+};
