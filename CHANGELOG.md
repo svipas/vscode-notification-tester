@@ -1,3 +1,11 @@
+## [2.0.4](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.4) (2018-12-28)
+
+- Created Prettier config.
+- Updated license year.
+- Added `max-line-length` rule to the TSLint.
+- Some minor changes in `extension.ts`.
+- Updated all dependencies to the latest version.
+
 ## [2.0.3](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.3) (2018-12-16)
 
 - Updated all dependencies to the latest version.
