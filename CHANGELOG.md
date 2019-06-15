@@ -1,4 +1,4 @@
-## [2.0.4](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.4) (2018-12-28)
+## [2.0.4](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.4) (2018-12-28)
 
 - Created Prettier config.
 - Updated license year.
@@ -6,16 +6,16 @@
 - Some minor changes in `extension.ts`.
 - Updated all dependencies to the latest version.
 
-## [2.0.3](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.3) (2018-12-16)
+## [2.0.3](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.3) (2018-12-16)
 
 - Updated all dependencies to the latest version.
 
-## [2.0.2](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.2) (2018-10-28)
+## [2.0.2](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.2) (2018-10-28)
 
 - Updated all dependencies to the latest version.
 - Refactored code.
 
-## [2.0.1](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.1) (2018-07-08)
+## [2.0.1](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.1) (2018-07-08)
 
 ### Changed
 
@@ -23,7 +23,7 @@
 - ⬆️ dev dependencies.
 - Surrounded tests with `try/catch` since they are `async` and added `Promise.all` for one of the test to improve performance.
 
-## [2.0.0](https://github.com/svipben/vscode-notification-tester/releases/tag/2.0.0) (2018-06-25)
+## [2.0.0](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.0) (2018-06-25)
 
 ### Added
 
@@ -33,7 +33,7 @@
 
 - Totally rewritten to the TypeScript.
 
-## [1.2.1](https://github.com/svipben/vscode-notification-tester/releases/tag/1.2.1) (2018-05-05)
+## [1.2.1](https://github.com/svipas/vscode-notification-tester/releases/tag/1.2.1) (2018-05-05)
 
 ### Added
 
@@ -46,23 +46,23 @@
 - Size and location of Notification Center image.
 - ⬆️ `vscode` in `package.json` (devDependencies).
 
-## [1.2.0](https://github.com/svipben/vscode-notification-tester/releases/tag/1.2.0) (2018-04-02)
+## [1.2.0](https://github.com/svipas/vscode-notification-tester/releases/tag/1.2.0) (2018-04-02)
 
 ### Added
 
-- `Show Progress Badge` and `Stop Progress Badge` commands to show/stop Progress Badge in Source Control. ([#2](https://github.com/svipben/vscode-notification-tester/issues/2))
+- `Show Progress Badge` and `Stop Progress Badge` commands to show/stop Progress Badge in Source Control. ([#2](https://github.com/svipas/vscode-notification-tester/issues/2))
 - Link to the extension in `README.md`.
 
 ### Changed
 
 - Notification Center image.
 
-## [1.1.0](https://github.com/svipben/vscode-notification-tester/releases/tag/1.1.0) (2018-03-09)
+## [1.1.0](https://github.com/svipas/vscode-notification-tester/releases/tag/1.1.0) (2018-03-09)
 
-- Added dummy Yes and No buttons for all messages. ([#1](https://github.com/svipben/vscode-notification-tester/issues/1))
+- Added dummy Yes and No buttons for all messages. ([#1](https://github.com/svipas/vscode-notification-tester/issues/1))
 - Updated Notification Center image.
 - Created `yarn.lock` file and added `vscode` dependency in `package.json` to enable autocomplete while developing extension.
 
-## [1.0.0](https://github.com/svipben/vscode-notification-tester/releases/tag/1.0.0) (2018-03-08)
+## [1.0.0](https://github.com/svipas/vscode-notification-tester/releases/tag/1.0.0) (2018-03-08)
 
 - Initial release.

@@ -4,8 +4,8 @@
   "description": "Trigger any VS Code notification.",
   "icon": "images/icon.png",
   "version": "2.0.4",
-  "publisher": "svipben",
-  "repository": "https://github.com/svipben/vscode-notification-tester",
+  "publisher": "svipas",
+  "repository": "https://github.com/svipas/vscode-notification-tester",
   "engines": {
     "vscode": "^1.21.0"
   },
