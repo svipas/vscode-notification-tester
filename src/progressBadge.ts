@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 export class ProgressBadge {
-  private _resolveFn: (value?: any) => void;
+  private _resolveFn: () => void;
 
   start() {
     if (this._resolveFn) {
@@ -11,7 +11,7 @@ export class ProgressBadge {
 
     vscode.window.withProgress({ location: vscode.ProgressLocation.SourceControl }, () => {
       vscode.window.showInformationMessage('Progress Badge is visible in Source Control.');
-      return new Promise((resolve) => (this._resolveFn = resolve));
+      return new Promise(resolve => (this._resolveFn = resolve));
     });
   }
 

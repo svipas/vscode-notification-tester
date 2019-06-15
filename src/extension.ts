@@ -21,20 +21,15 @@ export function activate(context: vscode.ExtensionContext) {
 function showMessage(type: MessageType) {
   switch (type) {
     case MessageType.Info:
-      vscode.window.showInformationMessage('Information message!', title.yes, title.no);
+      vscode.window.showInformationMessage('Information message.', { title: 'Yes' }, { title: 'No' });
       break;
     case MessageType.Warn:
-      vscode.window.showWarningMessage('Warning message!', title.yes, title.no);
+      vscode.window.showWarningMessage('Warning message.', { title: 'Yes' }, { title: 'No' });
       break;
     case MessageType.Error:
-      vscode.window.showErrorMessage('Error message!', title.yes, title.no);
+      vscode.window.showErrorMessage('Error message!', { title: 'Yes' }, { title: 'No' });
       break;
     default:
-      throw Error("there's no such message type");
+      throw Error("There's no such message type");
   }
 }
-
-const title = {
-  yes: { title: 'Yes' },
-  no: { title: 'No' }
-};
