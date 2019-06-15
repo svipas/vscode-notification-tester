@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 
 suite('Extension Tests', function() {
-  test('Notification Messages', async () => {
+  test('Notification messages', async () => {
     await Promise.all([
       vscode.commands.executeCommand('show.information.message'),
       vscode.commands.executeCommand('show.warning.message'),
@@ -10,7 +10,7 @@ suite('Extension Tests', function() {
     ]);
   });
 
-  test('Progress Badge', async () => {
+  test('Progress badge', async () => {
     await vscode.commands.executeCommand('start.progress.badge');
     await vscode.commands.executeCommand('stop.progress.badge');
   });
