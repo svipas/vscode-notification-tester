@@ -56,7 +56,7 @@
   ],
   "scripts": {
     "vscode:prepublish": "yarn compile",
-    "lint": "concurrent-run 'eslint src --ext .ts' 'tsc --noEmit --pretty'",
+    "lint": "concurrent-run 'yarn eslint src --ext .ts' 'yarn tsc --noEmit --pretty'",
     "compile": "tsc",
     "watch": "tsc -watch",
     "pretest": "yarn compile",
