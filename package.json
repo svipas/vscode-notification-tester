@@ -56,7 +56,7 @@
   ],
   "scripts": {
     "vscode:prepublish": "yarn compile",
-    "lint": "eslint src --ext .ts",
+    "lint": "concurrent-run 'eslint src --ext .ts' 'tsc --noEmit --pretty'",
     "compile": "tsc",
     "watch": "tsc -watch",
     "pretest": "yarn compile",
@@ -69,6 +69,7 @@
     "@types/vscode": "^1.21.0",
     "@typescript-eslint/eslint-plugin": "^1.10.2",
     "@typescript-eslint/parser": "^1.10.2",
+    "concurrent-run": "^2.1.0",
     "eslint": "^5.16.0",
     "glob": "^7.1.4",
     "mocha": "^6.1.4",
