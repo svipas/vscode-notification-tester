@@ -1,68 +1,51 @@
-## [2.0.4](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.4) (2018-12-28)
+## 2.0.4 (December 28, 2018)
 
-- Created Prettier config.
-- Updated license year.
-- Added `max-line-length` rule to the TSLint.
+- Add Prettier config.
+- Update license year.
+- Add `max-line-length` rule to the TSLint.
 - Some minor changes in `extension.ts`.
-- Updated all dependencies to the latest version.
+- Update all dependencies.
 
-## [2.0.3](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.3) (2018-12-16)
+## 2.0.3 (December 16, 2018)
 
-- Updated all dependencies to the latest version.
+- Update all dependencies.
 
-## [2.0.2](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.2) (2018-10-28)
+## 2.0.2 (October 28, 2018)
 
-- Updated all dependencies to the latest version.
-- Refactored code.
+- Update all dependencies.
+- Refactor some code.
 
-## [2.0.1](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.1) (2018-07-08)
+## 2.0.1 (July 8, 2018)
 
-### Changed
+- Change file name of `enum` and `class` to uppercase.
+- Update all dependencies.
+- Use `Promise.all` for one of the tests to improve performance.
 
-- File name of `enum` and `class` to uppercase.
-- ⬆️ dev dependencies.
-- Surrounded tests with `try/catch` since they are `async` and added `Promise.all` for one of the test to improve performance.
+## 2.0.0 (June 25, 2018)
 
-## [2.0.0](https://github.com/svipas/vscode-notification-tester/releases/tag/2.0.0) (2018-06-25)
+- Add TravisCI with tests.
+- Rewrite to the TypeScript.
 
-### Added
+## 1.2.1 (May 5, 2018)
 
-- TravisCI with tests.
+- Add icon in `README`.
+- Add Visual Studio Marketplace badge in `README`.
+- Rename `images/notification.png` to `images/icon.png`.
+- Change size and location of Notification Center image.
+- Update `vscode` dependency.
 
-### Changed
+## 1.2.0 (April 2, 2018)
 
-- Totally rewritten to the TypeScript.
+- Add `Show Progress Badge` and `Stop Progress Badge` commands to show/stop Progress Badge in Source Control [#2](https://github.com/svipas/vscode-notification-tester/issues/2).
+- Add link to the extension in `README`.
+- Change Notification Center image.
 
-## [1.2.1](https://github.com/svipas/vscode-notification-tester/releases/tag/1.2.1) (2018-05-05)
+## 1.1.0 (March 9, 2018)
 
-### Added
+- Add dummy Yes and No buttons for all messages [#1](https://github.com/svipas/vscode-notification-tester/issues/1).
+- Update Notification Center image.
+- Create `yarn.lock` file and add `vscode` dependency in `package.json` to enable autocomplete while developing extension.
 
-- Icon in `README.md`
-- Visual Studio Marketplace badge in `README.md`
-
-### Changed
-
-- `images/notification.png` to `images/icon.png`
-- Size and location of Notification Center image.
-- ⬆️ `vscode` in `package.json` (devDependencies).
-
-## [1.2.0](https://github.com/svipas/vscode-notification-tester/releases/tag/1.2.0) (2018-04-02)
-
-### Added
-
-- `Show Progress Badge` and `Stop Progress Badge` commands to show/stop Progress Badge in Source Control. ([#2](https://github.com/svipas/vscode-notification-tester/issues/2))
-- Link to the extension in `README.md`.
-
-### Changed
-
-- Notification Center image.
-
-## [1.1.0](https://github.com/svipas/vscode-notification-tester/releases/tag/1.1.0) (2018-03-09)
-
-- Added dummy Yes and No buttons for all messages. ([#1](https://github.com/svipas/vscode-notification-tester/issues/1))
-- Updated Notification Center image.
-- Created `yarn.lock` file and added `vscode` dependency in `package.json` to enable autocomplete while developing extension.
-
-## [1.0.0](https://github.com/svipas/vscode-notification-tester/releases/tag/1.0.0) (2018-03-08)
+## 1.0.0 (March 8, 2018)
 
 - Initial release.
