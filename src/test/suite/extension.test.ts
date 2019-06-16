@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
 
-suite('Extension Tests', function() {
+suite('Extension', () => {
   test('Notification messages', async () => {
     await Promise.all([
       vscode.commands.executeCommand('show.information.message'),

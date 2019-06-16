@@ -3,7 +3,7 @@
   "displayName": "Notification Tester",
   "description": "Trigger any VS Code notification.",
   "icon": "images/icon.png",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "publisher": "svipas",
   "repository": "https://github.com/svipas/vscode-notification-tester",
   "engines": {
@@ -60,7 +60,7 @@
     "compile": "tsc",
     "watch": "tsc -watch",
     "pretest": "yarn compile",
-    "test": "node out/test/runTest.js"
+    "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
     "@types/glob": "^7.1.1",

@@ -1,3 +1,13 @@
+## 2.1.0 (June 16, 2019)
+
+- Replace TSLint to ESLint and add `lint` script.
+- Remove Prettier config.
+- Update all dependencies.
+- Remove `vscode` dependency and add `@types/vscode`, `vscode-test`, `mocha`, `@types/glob` and `glob`, this is a new approach for extension usage and testing [#70175](https://github.com/microsoft/vscode/issues/70175).
+- Replace Travis to Azure Pipelines.
+- Add `concurrent-run` dependency to run `eslint` and `tsc` concurrently at the same time.
+- Refactor `CHANGELOG` and `README` to a new format.
+
 ## 2.0.4 (December 28, 2018)
 
 - Add Prettier config.
