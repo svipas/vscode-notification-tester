@@ -1,3 +1,9 @@
+## 2.1.1 (June 22, 2019)
+
+- Change filename convention to use hyphen.
+- Update all dependencies.
+- Add `plugin:@typescript-eslint/eslint-recommended` to ESLint `extends`.
+
 ## 2.1.0 (June 16, 2019)
 
 - Replace TSLint to ESLint and add `lint` script.
