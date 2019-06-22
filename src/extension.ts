@@ -1,6 +1,6 @@
 import * as vscode from 'vscode';
-import { MessageType } from './messageType';
-import { ProgressBadge } from './progressBadge';
+import { MessageType } from './message-type';
+import { ProgressBadge } from './progress-badge';
 
 export function activate(context: vscode.ExtensionContext) {
   const progressBadge = new ProgressBadge();
