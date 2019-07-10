@@ -65,15 +65,15 @@
   "devDependencies": {
     "@types/glob": "^7.1.1",
     "@types/mocha": "^5.2.7",
-    "@types/node": "^12.0.10",
+    "@types/node": "^12.6.2",
     "@types/vscode": "^1.21.0",
-    "@typescript-eslint/eslint-plugin": "^1.10.2",
-    "@typescript-eslint/parser": "^1.10.2",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
     "concurrent-run": "^2.2.1",
     "eslint": "^5.16.0",
     "glob": "^7.1.4",
     "mocha": "^6.1.4",
-    "typescript": "^3.5.2",
-    "vscode-test": "^0.4.3"
+    "typescript": "^3.5.3",
+    "vscode-test": "^1.0.0"
   }
 }
