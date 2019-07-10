@@ -1,3 +1,7 @@
+## 2.1.2 (July 11, 2019)
+
+- Update all dependencies.
+
 ## 2.1.1 (June 22, 2019)
 
 - Change filename convention to use hyphen.
