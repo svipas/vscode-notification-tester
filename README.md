@@ -4,7 +4,24 @@ This extension triggers VS Code notifications. This is usable if you want to tes
 
 <img src="https://raw.githubusercontent.com/svipas/vscode-notification-tester/master/images/notification-center.png" width="70%">
 
+## Installation
+
+Install through VS Code extensions, search for `Notification Tester` by `Benas Svipas`. _If you can't find extension by name try to search by publisher name._
+
 ## Usage
 
 1. Open Command Palette.
 2. Write `Notification Tester:` and use any command from the list to test Notification Center or Progress Badge.
+
+## Contributing
+
+Feel free to open issues or PRs!
+
+<details>
+<summary><strong>Debug extension</strong></summary>
+
+- Open this repository inside VS Code.
+- Run `Debug: Select and Start Debugging` from command palette or open debug sidebar.
+- Select `Run Extension`.
+
+</details>
