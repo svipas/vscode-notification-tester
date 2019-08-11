@@ -1,6 +1,11 @@
 ## [Unreleased]
 
+## 2.1.3 (August 11, 2019)
+
 - Update all dependencies.
+- Add `azure-pipelines.yml` to `.vscodeignore`.
+- Update image of how extension looks like.
+- Update `README.md`.
 
 ## 2.1.2 (July 11, 2019)
 
