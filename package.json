@@ -2,7 +2,7 @@
   "name": "notification-tester",
   "displayName": "Notification Tester",
   "description": "Trigger any VS Code notification.",
-  "icon": "images/icon.png",
+  "icon": "icon.png",
   "version": "2.1.3",
   "publisher": "svipas",
   "repository": {
