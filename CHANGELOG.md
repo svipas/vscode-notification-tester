@@ -1,6 +1,11 @@
 ## [Unreleased]
 
+## 2.1.4 (October 24, 2019)
+
 - Update dependencies.
+- Set `extensionKind` to `ui` in `package.json`.
+- Move `images/icon.png` to root dir.
+- Add `images` dir to `.vscodeignore`.
 
 ## 2.1.3 (August 11, 2019)
 
