@@ -71,14 +71,14 @@
   "devDependencies": {
     "@types/glob": "^7.1.1",
     "@types/mocha": "^5.2.7",
-    "@types/node": "^10.14.19",
+    "@types/node": "^12.11.6",
     "@types/vscode": "^1.21.0",
-    "@typescript-eslint/eslint-plugin": "^2.3.3",
-    "@typescript-eslint/parser": "^2.3.3",
+    "@typescript-eslint/eslint-plugin": "^2.5.0",
+    "@typescript-eslint/parser": "^2.5.0",
     "concurrent-run": "^2.2.2",
     "eslint": "^6.5.1",
-    "glob": "^7.1.4",
-    "mocha": "^6.2.1",
+    "glob": "^7.1.5",
+    "mocha": "^6.2.2",
     "typescript": "^3.6.4",
     "vscode-test": "^1.2.0"
   }
