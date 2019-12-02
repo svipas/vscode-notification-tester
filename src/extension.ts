@@ -1,21 +1,17 @@
 import * as vscode from 'vscode';
 import { MessageType } from './message-type';
-import { ProgressBadge } from './progress-badge';
+import { startProgressBadge, stopProgressBadge } from './progress-badge';
 
 export function activate(context: vscode.ExtensionContext) {
-  const progressBadge = new ProgressBadge();
   const messageTypeKeys = Object.keys(MessageType);
-
-  const commands = [
+  context.subscriptions.push(
     vscode.commands.registerCommand('show.information.message', () => showMessage(MessageType.Info)),
     vscode.commands.registerCommand('show.warning.message', () => showMessage(MessageType.Warn)),
     vscode.commands.registerCommand('show.error.message', () => showMessage(MessageType.Error)),
     vscode.commands.registerCommand('show.all.messages', () => messageTypeKeys.forEach(showMessage)),
-    vscode.commands.registerCommand('start.progress.badge', () => progressBadge.start()),
-    vscode.commands.registerCommand('stop.progress.badge', () => progressBadge.stop())
-  ];
-
-  context.subscriptions.push(...commands);
+    vscode.commands.registerCommand('start.progress.badge', () => startProgressBadge()),
+    vscode.commands.registerCommand('stop.progress.badge', () => stopProgressBadge())
+  );
 }
 
 function showMessage(type: MessageType) {
