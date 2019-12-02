@@ -13,7 +13,7 @@
     "url": "https://github.com/svipas/vscode-notification-tester/issues"
   },
   "engines": {
-    "vscode": "^1.21.0"
+    "vscode": "^1.30.0"
   },
   "extensionKind": "ui",
   "categories": [
@@ -73,7 +73,7 @@
     "@types/glob": "^7.1.1",
     "@types/mocha": "^5.2.7",
     "@types/node": "^12.12.14",
-    "@types/vscode": "^1.21.0",
+    "@types/vscode": "^1.30.0",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.9.0",
     "concurrent-run": "^2.2.3",
