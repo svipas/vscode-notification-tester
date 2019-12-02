@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## 2.2.1 (December 2, 2019)
+
+- Set `extensionKind` to `["ui"]` in `package.json`.
+
 ## 2.2.0 (December 2, 2019)
 
 - Update `LICENSE` year.
