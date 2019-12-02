@@ -1,5 +1,13 @@
 ## [Unreleased]
 
+## 2.2.0 (December 2, 2019)
+
+- Update `LICENSE` year.
+- Update all dependencies.
+- Increase minimum VS Code version to `1.30.0`.
+- Set `extensionKind` to `["ui", "workspace"]` in `package.json`.
+- Minor refactoring of extension.
+
 ## 2.1.6 (November 15, 2019)
 
 - Update all dependencies.
