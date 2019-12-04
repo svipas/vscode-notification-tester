@@ -1,5 +1,14 @@
 ## [Unreleased]
 
+## 2.3.0 (December 4, 2019)
+
+- Update all dependencies.
+- Update images and `README`.
+- Create `errors.ts` which contains all extension errors.
+- Set main file name to `main.ts` instead of `extension.ts`.
+- Create `ExtensionCommand` which contains all extension commands.
+- Move `showMessage()` to `message-type.ts`.
+
 ## 2.2.1 (December 2, 2019)
 
 - Set `extensionKind` to `["ui"]` in `package.json`.
