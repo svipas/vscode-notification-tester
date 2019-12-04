@@ -29,7 +29,7 @@
     "onCommand:start.progress.badge",
     "onCommand:stop.progress.badge"
   ],
-  "main": "./out/extension",
+  "main": "./out/main.js",
   "contributes": {
     "commands": [
       {
