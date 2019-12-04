@@ -2,7 +2,13 @@
 
 This extension triggers VS Code notifications. This is usable if you want to test Notification Center. I created this extension to prepare new coloring for theme which helps me to see how Notification Center looks like in different messages (info/warn/error). Also, you can test progress badge in Source Control with this extension.
 
-<img src="https://raw.githubusercontent.com/svipas/vscode-notification-tester/master/images/notification-center.png" width="70%">
+### All notification messages
+
+<img src="https://raw.githubusercontent.com/svipas/vscode-notification-tester/master/images/notifications.jpg" width="70%">
+
+### Progress badge
+
+<img src="https://raw.githubusercontent.com/svipas/vscode-notification-tester/master/images/progress-badge.png" width="70%">
 
 ## Installation
 
