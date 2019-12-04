@@ -8,7 +8,7 @@ This extension triggers VS Code notifications. This is usable if you want to tes
 
 ### Progress badge
 
-<img src="https://raw.githubusercontent.com/svipas/vscode-notification-tester/master/images/progress-badge.png" width="70%">
+<img src="https://raw.githubusercontent.com/svipas/vscode-notification-tester/master/images/progress-badge.png">
 
 ## Installation
 
