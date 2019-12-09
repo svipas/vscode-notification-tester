@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## 2.3.1 (December 9, 2019)
+
+- Update all dependencies.
+
 ## 2.3.0 (December 4, 2019)
 
 - Update all dependencies.
