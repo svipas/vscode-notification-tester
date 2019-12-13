@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 
 let resolveFn: () => void;
 
-export function startProgressBadge() {
+function start() {
   if (resolveFn) {
     vscode.window.showWarningMessage('Progress Badge is already visible in Source Control!');
     return;
@@ -14,7 +14,7 @@ export function startProgressBadge() {
   });
 }
 
-export function stopProgressBadge() {
+function stop() {
   if (!resolveFn) {
     vscode.window.showWarningMessage('Progress Badge is already stopped!');
     return;
@@ -24,3 +24,5 @@ export function stopProgressBadge() {
   resolveFn = undefined;
   vscode.window.showInformationMessage('Progress Badge is stopped.');
 }
+
+export const progressBadge = { start, stop };
