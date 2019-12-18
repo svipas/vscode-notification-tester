@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## 2.4.1 (December 18, 2019)
+
+- Update all dependencies.
+- Publish extension with `--yarn` flag in `vsce` command.
+
 ## 2.4.0 (December 13, 2019)
 
 - Update all dependencies.
