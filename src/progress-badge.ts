@@ -1,28 +1,28 @@
 import * as vscode from 'vscode';
 
-let resolveFn: () => void;
+export class ProgressBadge {
+  private static resolveFn?: () => void;
 
-function start() {
-  if (resolveFn) {
-    vscode.window.showWarningMessage('Progress Badge is already visible in Source Control!');
-    return;
+  static start() {
+    if (this.resolveFn) {
+      vscode.window.showWarningMessage('Progress Badge is already visible in Source Control!');
+      return;
+    }
+
+    vscode.window.withProgress({ location: vscode.ProgressLocation.SourceControl }, () => {
+      vscode.window.showInformationMessage('Progress Badge is visible in Source Control.');
+      return new Promise(resolve => (this.resolveFn = resolve));
+    });
   }
 
-  vscode.window.withProgress({ location: vscode.ProgressLocation.SourceControl }, () => {
-    vscode.window.showInformationMessage('Progress Badge is visible in Source Control.');
-    return new Promise(resolve => (resolveFn = resolve));
-  });
-}
+  static stop() {
+    if (!this.resolveFn) {
+      vscode.window.showWarningMessage('Progress Badge is already stopped!');
+      return;
+    }
 
-function stop() {
-  if (!resolveFn) {
-    vscode.window.showWarningMessage('Progress Badge is already stopped!');
-    return;
+    this.resolveFn();
+    this.resolveFn = undefined;
+    vscode.window.showInformationMessage('Progress Badge is stopped.');
   }
-
-  resolveFn();
-  resolveFn = undefined;
-  vscode.window.showInformationMessage('Progress Badge is stopped.');
 }
-
-export const progressBadge = { start, stop };
