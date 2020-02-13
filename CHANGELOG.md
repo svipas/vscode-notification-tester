@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## 2.4.3 (February 13, 2020)
+
+- Update all dependencies.
+- Refactor extension.
+
 ## 2.4.2 (January 17, 2020)
 
 - Update all dependencies.
