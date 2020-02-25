@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## 2.4.4 (February 25, 2020)
+
+- Remove ESLint.
+- Update all dependencies including TypeScript to 3.8
+
 ## 2.4.3 (February 13, 2020)
 
 - Update all dependencies.
