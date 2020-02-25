@@ -9,8 +9,6 @@ jobs:
           versionSpec: 12.x
       - script: 'yarn install'
         displayName: 'Install dependencies'
-      - script: 'yarn lint'
-        displayName: 'Run linter'
       - script: 'yarn test'
         displayName: 'Run tests'
   - job: macOS
@@ -23,8 +21,6 @@ jobs:
           versionSpec: 12.x
       - script: 'yarn install'
         displayName: 'Install dependencies'
-      - script: 'yarn lint'
-        displayName: 'Run linter'
       - script: 'yarn test'
         displayName: 'Run tests'
   - job: Linux
@@ -37,8 +33,6 @@ jobs:
           versionSpec: 12.x
       - script: 'yarn install'
         displayName: 'Install dependencies'
-      - script: 'yarn lint'
-        displayName: 'Run linter'
       - script: |
           set -e
           /usr/bin/Xvfb :10 -ac >> /tmp/Xvfb.out 2>&1 &
