@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { ExtensionCommand } from '../../extension-command';
+import { ExtensionCommand } from '../../extensionCommand';
 
 suite('Notification Center', () => {
   test('All notification messages', async () => {
