@@ -3,7 +3,7 @@
   "displayName": "Notification Tester",
   "description": "Trigger any VS Code notification.",
   "icon": "icon.png",
-  "version": "2.4.5",
+  "version": "2.4.6",
   "publisher": "svipas",
   "repository": {
     "type": "git",

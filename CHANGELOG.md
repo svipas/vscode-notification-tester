@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## 2.4.6 (March 8, 2020)
+
+- Change filename convention to use camelCase.
+
 ## 2.4.5 (March 8, 2020)
 
 - Update all dependencies.
