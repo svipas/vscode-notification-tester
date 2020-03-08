@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## 2.4.5 (March 8, 2020)
+
+- Update all dependencies.
+- Refactor extension.
+
 ## 2.4.4 (February 25, 2020)
 
 - Remove ESLint.
