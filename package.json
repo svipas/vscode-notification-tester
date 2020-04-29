@@ -1,83 +1,83 @@
 {
-  "name": "notification-tester",
-  "displayName": "Notification Tester",
-  "description": "Trigger any VS Code notification.",
-  "icon": "icon.png",
-  "version": "2.4.6",
-  "publisher": "svipas",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/svipas/vscode-notification-tester.git"
-  },
-  "bugs": {
-    "url": "https://github.com/svipas/vscode-notification-tester/issues"
-  },
-  "engines": {
-    "vscode": "^1.30.0"
-  },
-  "extensionKind": [
-    "ui"
-  ],
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onCommand:show.information.message",
-    "onCommand:show.warning.message",
-    "onCommand:show.error.message",
-    "onCommand:show.all.messages",
-    "onCommand:start.progress.badge",
-    "onCommand:stop.progress.badge"
-  ],
-  "main": "./out/main.js",
-  "contributes": {
-    "commands": [
-      {
-        "command": "show.information.message",
-        "title": "Notification Tester: Show Information Message"
-      },
-      {
-        "command": "show.warning.message",
-        "title": "Notification Tester: Show Warning Message"
-      },
-      {
-        "command": "show.error.message",
-        "title": "Notification Tester: Show Error Message"
-      },
-      {
-        "command": "show.all.messages",
-        "title": "Notification Tester: Show All Messages"
-      },
-      {
-        "command": "start.progress.badge",
-        "title": "Notification Tester: Start Progress Badge"
-      },
-      {
-        "command": "stop.progress.badge",
-        "title": "Notification Tester: Stop Progress Badge"
-      }
-    ]
-  },
-  "keywords": [
-    "test",
-    "notification",
-    "center"
-  ],
-  "scripts": {
-    "vscode:prepublish": "yarn compile",
-    "compile": "tsc",
-    "watch": "tsc -watch",
-    "pretest": "yarn compile",
-    "test": "node ./out/test/runTest.js"
-  },
-  "devDependencies": {
-    "@types/glob": "^7.1.1",
-    "@types/mocha": "^7.0.2",
-    "@types/node": "^13.9.0",
-    "@types/vscode": "^1.30.0",
-    "glob": "^7.1.6",
-    "mocha": "^7.1.0",
-    "typescript": "^3.8.3",
-    "vscode-test": "^1.3.0"
-  }
+	"name": "notification-tester",
+	"displayName": "Notification Tester",
+	"description": "Trigger any VS Code notification.",
+	"icon": "icon.png",
+	"version": "2.4.6",
+	"publisher": "svipas",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/svipas/vscode-notification-tester.git"
+	},
+	"bugs": {
+		"url": "https://github.com/svipas/vscode-notification-tester/issues"
+	},
+	"engines": {
+		"vscode": "^1.30.0"
+	},
+	"extensionKind": [
+		"ui"
+	],
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:show.information.message",
+		"onCommand:show.warning.message",
+		"onCommand:show.error.message",
+		"onCommand:show.all.messages",
+		"onCommand:start.progress.badge",
+		"onCommand:stop.progress.badge"
+	],
+	"main": "./out/main.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "show.information.message",
+				"title": "Notification Tester: Show Information Message"
+			},
+			{
+				"command": "show.warning.message",
+				"title": "Notification Tester: Show Warning Message"
+			},
+			{
+				"command": "show.error.message",
+				"title": "Notification Tester: Show Error Message"
+			},
+			{
+				"command": "show.all.messages",
+				"title": "Notification Tester: Show All Messages"
+			},
+			{
+				"command": "start.progress.badge",
+				"title": "Notification Tester: Start Progress Badge"
+			},
+			{
+				"command": "stop.progress.badge",
+				"title": "Notification Tester: Stop Progress Badge"
+			}
+		]
+	},
+	"keywords": [
+		"test",
+		"notification",
+		"center"
+	],
+	"scripts": {
+		"vscode:prepublish": "yarn compile",
+		"compile": "tsc",
+		"watch": "tsc -watch",
+		"pretest": "yarn compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^13.9.0",
+		"@types/vscode": "^1.30.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.1.0",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	}
 }
