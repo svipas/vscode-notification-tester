@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## 2.4.7 (April 29, 2020)
+
+- Change indentation to tabs.
+- Update all dependencies.
+- Change filename convention to use kebab-case.
+
 ## 2.4.6 (March 8, 2020)
 
 - Change filename convention to use camelCase.
