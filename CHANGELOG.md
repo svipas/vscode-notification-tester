@@ -1,5 +1,9 @@
 ## [Unreleased]
 
+## 2.4.8 (April 29, 2020)
+
+- Add `publish` script and re-publish package using Yarn instead of npm.
+
 ## 2.4.7 (April 29, 2020)
 
 - Change indentation to tabs.
