@@ -64,7 +64,7 @@
 		"center"
 	],
 	"scripts": {
-		"publish": "vsce publish --yarn",
+		"vscode:publish": "vsce publish --yarn",
 		"vscode:prepublish": "yarn compile",
 		"compile": "tsc",
 		"watch": "tsc -watch",

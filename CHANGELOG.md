@@ -2,7 +2,7 @@
 
 ## 2.4.8 (April 29, 2020)
 
-- Add `publish` script and re-publish package using Yarn instead of npm.
+- Add `vscode:publish` script and re-publish package using Yarn instead of npm.
 
 ## 2.4.7 (April 29, 2020)
 
