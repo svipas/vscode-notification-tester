@@ -4,7 +4,7 @@ This extension triggers VS Code notifications. This is usable if you want to tes
 
 ### All notification messages
 
-<img src="https://raw.githubusercontent.com/svipas/vscode-notification-tester/master/images/notifications.jpg" width="70%">
+<img src="https://raw.githubusercontent.com/svipas/vscode-notification-tester/master/images/notifications.png" width="70%">
 
 ### Progress badge
 
