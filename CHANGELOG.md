@@ -1,5 +1,11 @@
 ## [Unreleased]
 
+## 2.4.9 (May 17, 2020)
+
+- Reformat project with new settings.
+- Update all dependencies.
+- Update images.
+
 ## 2.4.8 (April 29, 2020)
 
 - Add `vscode:publish` script and re-publish package using Yarn instead of npm.
