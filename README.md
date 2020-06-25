@@ -22,12 +22,3 @@ Install through VS Code extensions, search for `Notification Tester` by `Benas S
 ## Contributing
 
 Feel free to open issues or PRs!
-
-<details>
-<summary><strong>Debug extension</strong></summary>
-
-- Open this repository inside VS Code.
-- Run `Debug: Select and Start Debugging` from command palette or open debug sidebar.
-- Select `Run Extension`.
-
-</details>
