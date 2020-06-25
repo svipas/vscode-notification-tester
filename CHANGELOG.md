@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## 2.5.0 (June 25, 2020)
+
+- Update all dependencies.
+- Bundle extension with webpack for faster startup.
+
 ## 2.4.9 (May 17, 2020)
 
 - Reformat project with new settings.
