@@ -1,7 +1,7 @@
 import * as vscode from "vscode";
 import { ExtensionCommand } from "./ExtensionCommand";
 import { showErrorMessage, showInfoMessage, showWarnMessage } from "./message";
-import { startProgressBadge, stopProgressBadge } from "./progress-badge";
+import { startProgressBadge, stopProgressBadge } from "./progressBadge";
 
 export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(
