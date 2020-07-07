@@ -1,5 +1,10 @@
 ## [Unreleased]
 
+## 2.5.1 (July 7, 2020)
+
+- Update all dependencies.
+- Change project file names convention.
+
 ## 2.5.0 (June 25, 2020)
 
 - Update all dependencies.
